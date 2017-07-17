@@ -6,36 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9EDDDD3E1F1CE089001A40C8 /* macRTSX.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD3D1F1CE089001A40C8 /* macRTSX.hpp */; };
-		9EDDDD401F1CE089001A40C8 /* macRTSX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDDD3F1F1CE089001A40C8 /* macRTSX.cpp */; };
-		9EDDDD511F1CE0CC001A40C8 /* macSDMMC_regs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD471F1CE0CC001A40C8 /* macSDMMC_regs.hpp */; };
-		9EDDDD521F1CE0CC001A40C8 /* macSDMMC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDDD481F1CE0CC001A40C8 /* macSDMMC.cpp */; };
-		9EDDDD531F1CE0CC001A40C8 /* macSDMMC.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD491F1CE0CC001A40C8 /* macSDMMC.hpp */; };
-		9EDDDD541F1CE0CC001A40C8 /* macSDMMCDisk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDDD4A1F1CE0CC001A40C8 /* macSDMMCDisk.cpp */; };
-		9EDDDD551F1CE0CC001A40C8 /* macSDMMCDisk.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD4B1F1CE0CC001A40C8 /* macSDMMCDisk.hpp */; };
-		9EDDDD561F1CE0CC001A40C8 /* rtsx_ops.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD4C1F1CE0CC001A40C8 /* rtsx_ops.hpp */; };
-		9EDDDD571F1CE0CC001A40C8 /* rtsx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDDD4D1F1CE0CC001A40C8 /* rtsx.cpp */; };
-		9EDDDD581F1CE0CC001A40C8 /* rtsxreg.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD4E1F1CE0CC001A40C8 /* rtsxreg.hpp */; };
-		9EDDDD591F1CE0CC001A40C8 /* rtsxvar.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD4F1F1CE0CC001A40C8 /* rtsxvar.hpp */; };
-		9EDDDD5A1F1CE0CC001A40C8 /* xnu_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDDDD501F1CE0CC001A40C8 /* xnu_private.h */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		9EDDDD3A1F1CE089001A40C8 /* macRTSX.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macRTSX.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EDDDD3D1F1CE089001A40C8 /* macRTSX.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = macRTSX.hpp; sourceTree = "<group>"; };
-		9EDDDD3F1F1CE089001A40C8 /* macRTSX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = macRTSX.cpp; sourceTree = "<group>"; };
 		9EDDDD411F1CE089001A40C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EDDDD471F1CE0CC001A40C8 /* macSDMMC_regs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macSDMMC_regs.hpp; sourceTree = "<group>"; };
-		9EDDDD481F1CE0CC001A40C8 /* macSDMMC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macSDMMC.cpp; sourceTree = "<group>"; };
-		9EDDDD491F1CE0CC001A40C8 /* macSDMMC.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macSDMMC.hpp; sourceTree = "<group>"; };
-		9EDDDD4A1F1CE0CC001A40C8 /* macSDMMCDisk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macSDMMCDisk.cpp; sourceTree = "<group>"; };
-		9EDDDD4B1F1CE0CC001A40C8 /* macSDMMCDisk.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macSDMMCDisk.hpp; sourceTree = "<group>"; };
-		9EDDDD4C1F1CE0CC001A40C8 /* rtsx_ops.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rtsx_ops.hpp; sourceTree = "<group>"; };
-		9EDDDD4D1F1CE0CC001A40C8 /* rtsx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtsx.cpp; sourceTree = "<group>"; };
-		9EDDDD4E1F1CE0CC001A40C8 /* rtsxreg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rtsxreg.hpp; sourceTree = "<group>"; };
-		9EDDDD4F1F1CE0CC001A40C8 /* rtsxvar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rtsxvar.hpp; sourceTree = "<group>"; };
-		9EDDDD501F1CE0CC001A40C8 /* xnu_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnu_private.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +41,6 @@
 		9EDDDD3C1F1CE089001A40C8 /* macRTSX */ = {
 			isa = PBXGroup;
 			children = (
-				9EDDDD471F1CE0CC001A40C8 /* macSDMMC_regs.hpp */,
-				9EDDDD481F1CE0CC001A40C8 /* macSDMMC.cpp */,
-				9EDDDD491F1CE0CC001A40C8 /* macSDMMC.hpp */,
-				9EDDDD4A1F1CE0CC001A40C8 /* macSDMMCDisk.cpp */,
-				9EDDDD4B1F1CE0CC001A40C8 /* macSDMMCDisk.hpp */,
-				9EDDDD4C1F1CE0CC001A40C8 /* rtsx_ops.hpp */,
-				9EDDDD4D1F1CE0CC001A40C8 /* rtsx.cpp */,
-				9EDDDD4E1F1CE0CC001A40C8 /* rtsxreg.hpp */,
-				9EDDDD4F1F1CE0CC001A40C8 /* rtsxvar.hpp */,
-				9EDDDD501F1CE0CC001A40C8 /* xnu_private.h */,
-				9EDDDD3D1F1CE089001A40C8 /* macRTSX.hpp */,
-				9EDDDD3F1F1CE089001A40C8 /* macRTSX.cpp */,
 				9EDDDD411F1CE089001A40C8 /* Info.plist */,
 			);
 			path = macRTSX;
@@ -92,14 +53,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDDDD5A1F1CE0CC001A40C8 /* xnu_private.h in Headers */,
-				9EDDDD581F1CE0CC001A40C8 /* rtsxreg.hpp in Headers */,
-				9EDDDD531F1CE0CC001A40C8 /* macSDMMC.hpp in Headers */,
-				9EDDDD511F1CE0CC001A40C8 /* macSDMMC_regs.hpp in Headers */,
-				9EDDDD551F1CE0CC001A40C8 /* macSDMMCDisk.hpp in Headers */,
-				9EDDDD3E1F1CE089001A40C8 /* macRTSX.hpp in Headers */,
-				9EDDDD591F1CE0CC001A40C8 /* rtsxvar.hpp in Headers */,
-				9EDDDD561F1CE0CC001A40C8 /* rtsx_ops.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +124,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDDDD541F1CE0CC001A40C8 /* macSDMMCDisk.cpp in Sources */,
-				9EDDDD521F1CE0CC001A40C8 /* macSDMMC.cpp in Sources */,
-				9EDDDD571F1CE0CC001A40C8 /* rtsx.cpp in Sources */,
-				9EDDDD401F1CE089001A40C8 /* macRTSX.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +266,7 @@
 				9EDDDD461F1CE089001A40C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
