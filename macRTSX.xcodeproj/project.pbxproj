@@ -6,7 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9E8097341F1CF453001A40C8 /* macRTSX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8097321F1CF453001A40C8 /* macRTSX.cpp */; };
+		9E8097351F1CF453001A40C8 /* macRTSX.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9E8097331F1CF453001A40C8 /* macRTSX.hpp */; };
+		9E8097381F1D143C001A40C8 /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8097361F1D143C001A40C8 /* debug.cpp */; };
+		9E8097391F1D143C001A40C8 /* debug.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9E8097371F1D143C001A40C8 /* debug.hpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		9E50581E1F1EAD63001A40C8 /* sdmmcreg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdmmcreg.h; sourceTree = "<group>"; };
+		9E8097321F1CF453001A40C8 /* macRTSX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macRTSX.cpp; sourceTree = "<group>"; };
+		9E8097331F1CF453001A40C8 /* macRTSX.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macRTSX.hpp; sourceTree = "<group>"; };
+		9E8097361F1D143C001A40C8 /* debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = debug.cpp; sourceTree = "<group>"; };
+		9E8097371F1D143C001A40C8 /* debug.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = debug.hpp; sourceTree = "<group>"; };
+		9E80973C1F1D2902001A40C8 /* rtsxreg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rtsxreg.hpp; sourceTree = "<group>"; };
 		9EDDDD3A1F1CE089001A40C8 /* macRTSX.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macRTSX.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDDDD411F1CE089001A40C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +55,12 @@
 			isa = PBXGroup;
 			children = (
 				9EDDDD411F1CE089001A40C8 /* Info.plist */,
+				9E8097321F1CF453001A40C8 /* macRTSX.cpp */,
+				9E8097331F1CF453001A40C8 /* macRTSX.hpp */,
+				9E8097361F1D143C001A40C8 /* debug.cpp */,
+				9E8097371F1D143C001A40C8 /* debug.hpp */,
+				9E80973C1F1D2902001A40C8 /* rtsxreg.hpp */,
+				9E50581E1F1EAD63001A40C8 /* sdmmcreg.h */,
 			);
 			path = macRTSX;
 			sourceTree = "<group>";
@@ -53,6 +72,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8097391F1D143C001A40C8 /* debug.hpp in Headers */,
+				9E8097351F1CF453001A40C8 /* macRTSX.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8097341F1CF453001A40C8 /* macRTSX.cpp in Sources */,
+				9E8097381F1D143C001A40C8 /* debug.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
